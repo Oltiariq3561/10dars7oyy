@@ -53,9 +53,7 @@ function App() {
             <Card key={comment.id} sx={{ marginBottom: 2 }}>
               <CardContent>
                 <Typography variant="h6">{comment.name}</Typography>
-                <Typography variant="body2" color="textSecondary">
-                  ID: {comment.id}
-                </Typography>
+                <Typography variant="body2" color="textSecondary">ID: {comment.id}</Typography>
                 <Typography variant="body1">{comment.body}</Typography>
               </CardContent>
             </Card>

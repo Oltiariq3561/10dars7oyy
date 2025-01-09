@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const ChildComponent = React.memo(({ count }) => {
-  console.log('ChildComponent qayta render bo\'ldi!');
+  console.log('ChildComponent qayta render boldi!');
   return <p>Count: {count}</p>;
 });
 

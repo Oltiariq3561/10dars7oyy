@@ -5,7 +5,7 @@ const Usememo = () => {
   const [text, setText] = useState('');
 
   const expensiveCalculation = useMemo(() => {
-    console.log('Qimmatli hisoblash bajarilmoqda...');
+    console.log('Qimmatli hisoblash bajarilmoqda');
     let total = 0;
     for (let i = 0; i < 1e6; i++) {
       total += count;
